@@ -1,7 +1,5 @@
 ## Stock Sentiment Analyzer
-# The purpose of our project research is to implement
-# machine learning to extract informative results in
-# form of stock price trends using sentiment analysis.
+# The purpose of our project research is to implement machine learning to extract informative results in form of stock price trends using sentiment analysis.
 
 The clean, fast and right way to start a new Django `4.0.5` powered website.
 
