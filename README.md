@@ -1,6 +1,6 @@
 # Django Project Template
 
-The clean, fast and right way to start a new Django `1.10.1` powered website.
+The clean, fast and right way to start a new Django `4.0.5` powered website.
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ Setup project environment with [virtualenv](https://virtualenv.pypa.io) and [pip
 ```bash
 $ virtualenv project-env
 $ source project-env/bin/activate
-$ pip install -r https://raw.githubusercontent.com/juanifioren/django-project-template/master/requirements.txt
+$ pip install -r requirements.txt
 
 # You may want to change the name `projectname`.
 $ django-admin startproject --template https://github.com/juanifioren/django-project-template/archive/master.zip projectname
@@ -28,4 +28,4 @@ $ python manage.py runserver
 
 ## Contributing
 
-I love contributions, so please feel free to fix bugs, improve things, provide documentation. Just send a pull request.
+lease feel free to fix bugs, improve things, provide documentation. Just send a pull request.
