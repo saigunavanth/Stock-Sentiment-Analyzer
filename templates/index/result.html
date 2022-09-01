@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends "index/base.html" %}
+{% load static %}
+
+
+
+{% block head %}
+<div class="container">
+<h2>The prediction for {{company}}:-</h2>
+<h1 style="margin-left:10%;">{{ pred }}</h1>
+<h3>Stock market prices are subject to market risks. 
+    <br>
+    Please be careful before investing.</h3>
+
+</div>
+{% endblock %}

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6d1ff323-571a-4faf-b276-f4e2ccb6c37c/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/stock-sentiment-analyzer-ssag",
+    "appService.deploySubpath": "."
+}

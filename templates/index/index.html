@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% extends "index/base.html" %}
+{% load static %}
+
+
+{% block head %}
+<div class="container">
+<h2>Enter the company name you want prediction for:-</h2>
+<br>
+<form method="POST" >
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" class="btn btn-primary">
+</form>
+
+
+<p style="margin-left: 50%;">{{ prediction }}<p>
+</div>
+
+
+{% endblock %}
